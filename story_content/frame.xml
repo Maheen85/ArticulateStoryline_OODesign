@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="OODesign" />
+              <option name="title_text" value="OODesignCourse" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1585,18 +1585,37 @@
         </slidelink>
         <slidelink slideid="_player.5aP4sqKzpaI" displaytext="Module_1" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5aP4sqKzpaI.6J7QfuTAHcV" displaytext="MODULE 1 : Object-Oriented Analysis and Design" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.66qdkgdoo6Q" displaytext="What is Object-Oriented Thinking ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6J7QfuTAHcV" displaytext=" Object-Oriented Analysis and Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.66qdkgdoo6Q" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6635DbMQXdn" displaytext="What is an Object ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6SlOriz5wtc" displaytext="REVIEW : Object Oriented Analysis and Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6OfGL79oCyM" displaytext="What is Object-Oriented Thinking ?" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6nUg6FtXNpm" displaytext="Module_2" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6nUg6FtXNpm.6240IwvgybY" displaytext="MODULE 2 : Object-Oriented Modeling" expand="false" type="slide" />
+            <slidelink slideid="_player.6nUg6FtXNpm.6240IwvgybY" displaytext=" Object-Oriented Modeling" expand="false" type="slide" />
+            <slidelink slideid="_player.6nUg6FtXNpm.6EKLxL8LOdJ" displaytext="Challenges in creating models in design" expand="false" type="slide" />
+            <slidelink slideid="_player.6nUg6FtXNpm.5zf3fc6Mh6J" displaytext="Software development process" expand="false" type="slide" />
+            <slidelink slideid="_player.6nUg6FtXNpm.5aRRfcQFThw" displaytext="What is a Good Design ?" expand="false" type="slide" />
+            <slidelink slideid="_player.6nUg6FtXNpm.5cKDegrEgsK" displaytext="REVIEW : Object Oriented Modeling" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6Cdbxjv36iC" displaytext="Module_3" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6Cdbxjv36iC.6XfTrhU0xu1" displaytext="MODULE 3 : Design Principles" expand="false" type="slide" />
+            <slidelink slideid="_player.6Cdbxjv36iC.5rleuurxioa" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Cdbxjv36iC.5xfSrRSR6DO" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Cdbxjv36iC.6hMFvr3aXsC" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Cdbxjv36iC.6naqkgmdmUd" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Cdbxjv36iC.6bNiLOCfByt" displaytext="REVIEW : Design Principles" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5hd07nMP5Ig" displaytext="End of Course" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5hd07nMP5Ig.6fBgvkRPGrE" displaytext="Review : Object Oriented Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5hd07nMP5Ig.5po4SC1aoYJ" displaytext="Glossary" expand="false" type="slide" />
+            <slidelink slideid="_player.5hd07nMP5Ig.6jwkJPcSh6o" displaytext="Survey" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
