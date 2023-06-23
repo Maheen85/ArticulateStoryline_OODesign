@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x8EB4E3">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Lato" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100101" font="Lato" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npxnabnsnfns00001100101" font="Lato" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Lato" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100100" font="Lato" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbsnfns00001000101" font="Open Sans" controllayout="npnxnanbsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="pxabnsnfns00001000101" font="Open Sans" controllayout="pxabnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="npxnabnsnfns00001000101" font="Open Sans" controllayout="npxnabnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="npnxnanbnsnfns00001000101" font="Open Sans" controllayout="npnxnanbnsnfns00001000101" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
+    <layout name="pxabnsnfns00001000100" font="Open Sans" controllayout="pxabnsnfns00001000100" colorscheme="pxabnsnfns00001000101" string_table="pxabnsnfns00001000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -27,7 +27,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -49,10 +49,10 @@
       <optiongroup name="menuoptions">
         <options>
           <option name="flow" value="free" />
-          <option name="wraplistitems" value="false" />
+          <option name="wraplistitems" value="true" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
-          <option name="autonumber" value="false" />
+          <option name="autonumber" value="true" />
           <option name="enableresultsicons" value="true" />
         </options>
       </optiongroup>
@@ -70,11 +70,11 @@
           <option name="search" value="false" />
           <option name="closed_captions" value="true">
             <options>
-              <option name="font" value="Lato" />
+              <option name="font" value="Open Sans" />
             </options>
           </option>
           <option name="settings" value="true" />
-          <option name="fullScreenToggle" value="false" />
+          <option name="fullScreenToggle" value="true" />
           <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
@@ -90,10 +90,15 @@
           <option name="submit" value="icon" />
         </options>
       </optiongroup>
+      <optiongroup name="courseOptions">
+        <options>
+          <option name="thumbnailEnabled" value="false" />
+        </options>
+      </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100101">
+    <control_layout name="npnxnanbsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -103,12 +108,12 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -118,7 +123,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100101">
+    <control_layout name="pxabnsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -128,12 +133,12 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -143,7 +148,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100101">
+    <control_layout name="npxnabnsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -153,12 +158,12 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -168,7 +173,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
+    <control_layout name="npnxnanbnsnfns00001000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -178,12 +183,12 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -193,7 +198,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100100">
+    <control_layout name="pxabnsnfns00001000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -203,12 +208,12 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="fullScreenToggle" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -220,7 +225,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001100101">
+    <colorscheme name="pxabnsnfns00001000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -244,7 +249,7 @@
           <color name="htmlpage_bg_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x282828" alpha="100" stop="0" />
+                <color rgb="0x0F243E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -414,7 +419,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0x0C1E33" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -442,7 +447,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0x1A406D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -766,7 +771,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0x0C1E33" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -999,7 +1004,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0x0C1E33" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1021,7 +1026,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0x1A406D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1163,7 +1168,7 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+                <color rgb="0x8EB4E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1198,7 +1203,7 @@
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0x1A406D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1212,28 +1217,28 @@
           <color name="menu_shade">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0x0C1E33" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x282828" alpha="100" stop="0" />
+                <color rgb="0x0F243E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x282828" alpha="100" stop="0" />
+                <color rgb="0x0F243E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slide_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x282828" alpha="100" stop="0" />
+                <color rgb="0x0F243E" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1279,7 +1284,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0x0C1E33" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1307,7 +1312,7 @@
           <color name="toggle_track_on">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+                <color rgb="0x8EB4E3" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1328,7 +1333,7 @@
           <color name="settings_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0x1A406D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1339,7 +1344,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x212121" alpha="100" stop="0" />
+                <color rgb="0x0C1E33" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1388,7 +1393,7 @@
           <color name="volume_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x454545" alpha="100" stop="0" />
+                <color rgb="0x1A406D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1397,7 +1402,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001100101">
+    <string_table name="pxabnsnfns00001000101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1565,7 +1570,7 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Lato">
+    <font name="Open Sans">
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
@@ -1578,18 +1583,26 @@
       <links>
         <slidelink slideid="_player.6GDYLbbm4ox" displaytext="OODesign" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6GDYLbbm4ox.5trWqV3GuzH" displaytext="Objective of this course" expand="false" type="slide" />
             <slidelink slideid="_player.6GDYLbbm4ox.5thZTrcv1F4" displaytext="Object Oriented Design" expand="false" type="slide" />
+            <slidelink slideid="_player.6GDYLbbm4ox.5trWqV3GuzH" displaytext="Course Objectives" expand="false" type="slide" />
             <slidelink slideid="_player.6GDYLbbm4ox.6aAPsA4Bu9e" displaytext="Course Overview" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5aP4sqKzpaI" displaytext="Module_1" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5aP4sqKzpaI.6J7QfuTAHcV" displaytext=" Object-Oriented Analysis and Design" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.66qdkgdoo6Q" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5aP4sqKzpaI.6635DbMQXdn" displaytext="What is an Object ?" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.6SlOriz5wtc" displaytext="REVIEW : Object Oriented Analysis and Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.66qdkgdoo6Q" displaytext="Identify objects" expand="false" type="slide" />
             <slidelink slideid="_player.5aP4sqKzpaI.6OfGL79oCyM" displaytext="What is Object-Oriented Thinking ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5apUuDyYVFM" displaytext="Role of design in software development process " expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5ZIPItG4bRR" displaytext="one big idea" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6EOyUuFqUQn" displaytext="Process of software creation" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6NSIkKcL6QJ" displaytext="Why UML diagrams" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5mTASyyIF3F" displaytext="Assets" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6WN92D0lscS" displaytext="Class Responsibility Collaborator (CRC) Cards" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6lREt6mNQAu" displaytext="Why CRC cards" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6QUhKQbYdui" displaytext="Design for quality attributes of software" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6SlOriz5wtc" displaytext="REVIEW : Object Oriented Analysis and Design" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6nUg6FtXNpm" displaytext="Module_2" expand="true" type="slide">
@@ -1621,7 +1634,7 @@
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
