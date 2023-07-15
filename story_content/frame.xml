@@ -1584,7 +1584,7 @@
         <slidelink slideid="_player.6GDYLbbm4ox" displaytext="OODesign" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6GDYLbbm4ox.5thZTrcv1F4" displaytext="Object Oriented Design" expand="false" type="slide" />
-            <slidelink slideid="_player.6GDYLbbm4ox.5trWqV3GuzH" displaytext="Course Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6GDYLbbm4ox.5trWqV3GuzH" displaytext="Objective of this course" expand="false" type="slide" />
             <slidelink slideid="_player.6GDYLbbm4ox.6aAPsA4Bu9e" displaytext="Course Overview" expand="false" type="slide" />
           </links>
         </slidelink>
@@ -1592,17 +1592,24 @@
           <links>
             <slidelink slideid="_player.5aP4sqKzpaI.6J7QfuTAHcV" displaytext=" Object-Oriented Analysis and Design" expand="false" type="slide" />
             <slidelink slideid="_player.5aP4sqKzpaI.6635DbMQXdn" displaytext="What is an Object ?" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.66qdkgdoo6Q" displaytext="Identify objects" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.66qdkgdoo6Q" displaytext="Identify Objects" expand="false" type="slide" />
             <slidelink slideid="_player.5aP4sqKzpaI.6OfGL79oCyM" displaytext="What is Object-Oriented Thinking ?" expand="false" type="slide" />
             <slidelink slideid="_player.5aP4sqKzpaI.5apUuDyYVFM" displaytext="Role of design in software development process " expand="false" type="slide" />
             <slidelink slideid="_player.5aP4sqKzpaI.5ZIPItG4bRR" displaytext="one big idea" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5uHo7GDHbve" displaytext="Scope of requirements" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6n5W01dQF1F" displaytext="Iterative Process for each set of Requirements" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6KOOvoDXHuk" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5aP4sqKzpaI.6EOyUuFqUQn" displaytext="Process of software creation" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.6NSIkKcL6QJ" displaytext="Why UML diagrams" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.5mTASyyIF3F" displaytext="Assets" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.6WN92D0lscS" displaytext="Class Responsibility Collaborator (CRC) Cards" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.6lREt6mNQAu" displaytext="Why CRC cards" expand="false" type="slide" />
-            <slidelink slideid="_player.5aP4sqKzpaI.6QUhKQbYdui" displaytext="Design for quality attributes of software" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5xRdIoufYhw" displaytext="Design In Software Development" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5pxsAt4kHVG" displaytext="Conceptual design of living room" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5YwfUVaJ0dx" displaytext="Technical design of living room" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5W3PQglAIGY" displaytext="Conceptual Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5dtwkRxtAMp" displaytext="What are Wireframes ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6lREt6mNQAu" displaytext="What are CRC cards ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6WN92D0lscS" displaytext="Technical Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.6NSIkKcL6QJ" displaytext="What are UML diagrams ?" expand="false" type="slide" />
             <slidelink slideid="_player.5aP4sqKzpaI.6SlOriz5wtc" displaytext="REVIEW : Object Oriented Analysis and Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5aP4sqKzpaI.5mTASyyIF3F" displaytext="Assets" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6nUg6FtXNpm" displaytext="Module_2" expand="true" type="slide">
